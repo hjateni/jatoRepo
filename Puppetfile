@@ -4,7 +4,7 @@
 mod "puppetlabs/inifile", "1.4.1"
 # get a specific version
 mod "puppetlabs/stdlib"
-mod "puppetlabs/mysql"
+#mod "puppetlabs/mysql"
 mod "puppetlabs/ntp"
 # get latest, don't update thereafter
 mod "jorhett/mcollective", :latest # update to latest version every time
