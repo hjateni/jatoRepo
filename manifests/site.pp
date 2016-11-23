@@ -31,7 +31,7 @@ node default {
   #   class { 'my_class': }
 }
 
-node 'pclient' {
+node 'client' {
 
   include '::role::hpcclient'
 }
